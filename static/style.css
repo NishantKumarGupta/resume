@@ -1,0 +1,572 @@
+/* General */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    color: blue;
+}
+
+a:hover{
+    color: black;
+}
+/* Navbar */
+.navbar{
+    background-color: white;
+    padding:40px;
+}
+.nav-brand-name{
+    font-family: "Poppins",sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+.nav-brand-des{
+    font-size: 1.1rem;
+}
+/* Body */
+.body-color{
+    background: #fbe0c4;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+section{
+    margin: 0px;
+    padding: 0px;
+}
+#content-body{
+    height: 950px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-span{
+    height: 950px;
+}
+
+/* Footer */
+#footer{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-size: large;
+
+}
+div.row{
+    margin:0px;
+}
+div.footer-text{
+    text-align: left;
+    padding: 1.7rem 1rem 1rem 3rem;
+}
+div.footer-icon{
+    text-align: center;
+}
+
+.footer-icon-text{
+    padding: 0.8rem 2rem 0.1rem 2rem;
+    margin: 0px;
+}
+
+.social-footer{
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+}
+/* INDEX */
+.index-card{
+    height: 525px;
+    width: 375px;
+    position: absolute;
+    top: 270px;
+    left:340px;
+    box-shadow: -7px 10px 20px 0px  #d6c9bc;
+    text-align: center;
+}
+
+.index-card-top{
+    background-color: #fcecdd;
+    height: 475px;
+}
+
+.index-card-image-div{
+    padding: 40px 0px 22px 0px;
+}
+
+.index-card-image{
+    height: 205px;
+    width: 205px;
+    border-radius: 50%;
+}
+
+.index-card-name{
+    height: 80px;
+    width: 60%;
+    margin: auto;
+    padding: 10px 0px 15px 0px;
+    font-size: 1.6rem;
+    font-family: "Poppins",sans-serif;
+}
+
+.line-div{
+    width: 25%;
+    margin: 23px auto 20px auto;
+}
+
+.line{
+    height: 2px;
+    border-width: 0px;
+    background-color: blue;
+}
+.index-card-des{
+    width:70%;
+    margin: 25px auto;
+    font-size: 1.1rem;
+    letter-spacing: 0.25rem;
+}
+.index-card-bottom{
+    background-color: white;
+    height: 50px;
+}
+
+.social-icon-card{
+    padding: 15px 5px 10px 5px;
+}
+
+.social-icon-card a{
+    padding: 0px 10px;
+}
+
+.index-text-div{
+    height: 525px;
+    width: 485px;
+    position: absolute;
+    top: 260px;
+    left:82px;
+    text-align: left;
+
+}
+
+.index-text-greeting-div{
+    height: 150px;
+}
+
+.line-1{
+    font-family: "Poppins",sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    margin: 10px 20px 10px 40px;  
+    position: absolute; 
+    top: 96px;
+}
+
+.anim-typewriter{
+  animation: typewriter 900ms steps(12) 1s 1 normal both,
+             blinkTextCursor 1s steps(12) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color:black;}
+  to{border-right-color: transparent;}
+}
+
+.index-text-des{
+    margin: 20px 0px 10px 40px;
+    font-size: 1.4rem;
+
+}
+
+.index-text-button{
+    margin: 25px 20px 27px 40px;
+    height: 40px;
+}
+
+.index-button-1{
+    width: 150px;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.index-button-1:hover{
+    background-color: white;
+    color:black
+}
+
+.index-button-2{
+    width: 150px;
+    border-radius: 50px;
+    color: black;
+    border-color: black;
+    margin-left: 7px;
+}
+
+.index-button-2:hover{
+    background-color: blue;
+}
+
+.index-text-about{
+    margin: 10px 20px 0px 40px;
+}
+.blank-line{
+    margin-bottom: 0px;
+    line-height: 0.8rem;
+}
+/* RESUME */
+
+.resume-heading{
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+}
+
+.resume-line-div{
+    width: 9.7%;
+    position: absolute;
+    top: 247px;
+    left:700px;
+    background-color: blue;
+    height: 4px;
+}
+
+.resume-line{
+    border-width: 0px;
+    height: 4px;
+}
+
+.resume-topic-heading-div{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 403px;
+}
+.resume-topic-experience{
+    top: 330px;
+}
+
+.resume-download-btn-div{
+    position: absolute;
+    top: 330px;
+    left:970px;
+}
+
+.resume-download-btn{
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.resume-card-div{
+    background-color: white;
+    position: absolute;
+    width: 725px;
+    left: 402px;
+    box-shadow: -7px 10px 20px 0px  #d6c9bc;
+    height: 300px;
+    display: inline-block;
+}
+
+.resume-card-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin: 60px 10px 0px 35px;
+    color: blue;
+    width: 200px;
+}
+
+.resume-card-title p{
+    margin-bottom: 0px;
+}
+
+.resume-card-line-1{
+    margin-left: 35px;
+    font-size: 0.8rem;
+    width: 200px;
+}
+
+.resume-card-line-1 p{
+    margin-bottom: 2px;
+}
+.resume-card-line-2{
+    margin-left: 35px;
+    font-size: 0.8rem;
+    width: 250px;
+}
+
+.resume-card-line-3{
+    margin-left: 35px;
+    font-size: 0.8rem;
+    width: 250px;
+}
+
+.resume-card-text{
+    width: 50%;
+    position: absolute;
+    right: 30px;
+    top: 95px;
+}
+
+.experience-card{
+    top: 390px;
+}
+
+.resume-topic-education{
+    top: 780px;
+}
+
+.education-card-1{
+    top: 840px;
+}
+
+.education-card-2{
+    top: 1175px;
+}
+
+.skillset-card{
+    height: 450px;
+    top: 1580px;
+}
+
+.professional-skillset-title{
+    width: 60%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    margin: 60px 49px 20px 49px;
+}
+
+.pofessional-skillset-element{
+    width: 50%;
+    position: absolute;
+}
+
+.professional-skillset-dot{
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+    position: absolute;
+}
+
+.professional-skillset-dot-1{
+    top: 130px;
+    left: 49px;
+}
+
+.pofessional-skillset-element-1{
+    top: 125px;
+    left: 67px;
+}
+.professional-skillset-dot-2{
+    top: 130px;
+    left: 350px;
+}
+
+.pofessional-skillset-element-2{
+    top: 125px;
+    left: 368px;
+}
+
+.professional-skillset-dot-3{
+    top: 183px;
+    left: 49px;
+}
+
+.pofessional-skillset-element-3{
+    top: 178px;
+    left: 67px;
+}
+
+.professional-skillset-dot-4{
+    top: 183px;
+    left: 350px;
+}
+.pofessional-skillset-element-4{
+    top: 178px;
+    left: 368px;
+}
+
+.languages-title{
+    position: absolute;
+    width: 60%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    left: 49px;
+    top: 290px;
+}
+
+.languages-dot-1{
+    top: 355px;
+    left: 49px;
+}
+
+.languages-element-1{
+    top: 350px;
+    left: 67px;
+}
+
+.languages-dot-2{
+    top: 355px;
+    left: 350px;
+}
+
+.languages-element-2{
+    top: 350px;
+    left: 368px;
+}
+/* PROJECTS */
+
+.projects-heading{
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+}
+
+.projects-line-div{
+    width: 9.7%;
+    position: absolute;
+    top: 249px;
+    left:700px;
+    background-color: blue;
+    height: 4px;
+}
+.projects-line{
+    border-width: 0px;
+    height: 4px;
+}
+
+.projects-page-text{
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    width: 750px;
+    height: 150px;
+    text-align: center;
+}
+
+.projects-page-text p{
+    padding-top: 30px;
+}
+
+.project-no-1-div,.project-no-2-div{
+    background-color: white;
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    left: 400px;
+    box-shadow: -7px 10px 20px 0px  #d6c9bc;
+}
+
+.project-no-1-div{
+    top: 450px;
+}
+
+.project-no-2-div{
+    top: 875px;
+}
+
+.col-lg-5{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.project-image{
+    height: 350px;
+    width: 312.5px;
+}
+
+.project-card-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin: 60px 10px 0px 20px;
+}
+
+.project-card-title p{
+    margin-bottom: 0px;
+    color: blue;
+}
+
+.project-card-title a{
+    text-decoration: none;
+}
+
+.project-card-des{
+    margin: 0px 10px 30px 20px;
+}
+
+.project-card-text{
+    margin: 0px 10px 0px 20px;
+}
+/* COMPETITIVE PROGRAMMING */
+/* CONTACT  */
+
+.form-sal{
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+}
+
+.contact-line-div{
+    width: 12%;
+    position: absolute;
+    top: 247px;
+    left:700px;
+    background-color: blue;
+    height: 4px;
+}
+.contact-line{
+    border-width: 0px;
+    height: 4px;
+}
+
+.contact-form-div{
+    background-color: white;
+    height: 645px;
+    width: 680px;
+    position: absolute;
+    top: 295px;
+    left: 455px;
+    box-shadow: -7px 10px 20px 0px  #d6c9bc;
+    padding: 60px 60px 10px 60px;
+}
+
+.form-row,.form-group{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.form-control{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .form-send{
+      border-radius: 50px;
+      width: 150px;
+      background-color: blue;
+  }
